@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Satoshi", "sans-serif";
+  --color-body: #1d1e28;
+  --color-light: #ffffff;
+  --container-padding: 100px;
+}
+
+@layer utilities {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--container-padding);
+    padding-right: var(--container-padding);
+  }
+}
